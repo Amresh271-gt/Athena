@@ -1,5 +1,3 @@
-# main.py
-
 from core import brain, memory, nlp_engine
 from features import datetime_skill, weather_skill, system_commands
 from utils import logger, helper
@@ -30,12 +28,19 @@ def main():
         cleaned_input = helper.clean_input(user_input)
         logger.log_info(f"User input: {cleaned_input}")
         
-        if cleaned_input in ["exit", "quit", "bye"]:
+        if cleaned_input.lower() in ["exit", "quit", "bye"]:
             print("Athena: Goodbye! Have a great day.")
             sys.exit()
         
-        # Send input to brain for processing
+        # Get response from brain (handles multi-turn & context)
         response = brain.get_response(cleaned_input)
+        
+        # Handle exit intent
+        if response == "exit":
+            print("Athena: Goodbye! Have a great day.")
+            sys.exit()
+        
+        # Print Athena's response
         print(f"Athena: {response}\n")
 
 if __name__ == "__main__":

@@ -21,3 +21,9 @@ def help_message():
         "- 'hello' → greetings\n"
         "- 'exit' → to quit Athena"
     )
+
+def set_alarm(time):
+    if not time:
+        return "Please provide a time for the alarm."
+    # For now, simulate alarm
+    return f"Alarm set for {time}!"

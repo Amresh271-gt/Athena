@@ -1,10 +1,10 @@
-# nlp_engine.py
 import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 import string
 import json
 from pathlib import Path
+import re
 
 # Load intents only once
 INTENTS_PATH = Path("data/intents.json")
@@ -17,53 +17,72 @@ nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 nltk.download('stopwords')
-nltk.download('punkt_tab')
 
 # Initialize lemmatizer
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words('english'))
 
 def preprocess_text(text):
-    """
-    Preprocess user input:
-    - Lowercase
-    - Tokenize
-    - Remove stopwords
-    - Lemmatize words
-    """
-    # Lowercase
     text = text.lower()
-    
-    # Remove punctuation
     text = text.translate(str.maketrans('', '', string.punctuation))
-    
-    # Tokenize
     tokens = nltk.word_tokenize(text)
-    
-    # Remove stopwords & lemmatize
     tokens = [lemmatizer.lemmatize(word) for word in tokens if word not in stop_words]
-    
     return tokens
 
-def detect_intent(user_input):
-    """
-    Detect user intent based on NLP processed tokens
-    """
-    user_tokens = preprocess_text(user_input)
-
-    best_intent = None
-    highest_match = 0
+# -----------------------------
+# Intent Detection (returns dict)
+# -----------------------------
+def detect_intent(user_input: str, threshold: float = 0.2) -> dict:
+    user_tokens = set(preprocess_text(user_input))
+    best_intent = "fallback"
+    highest_match = 0.0
 
     for intent, data in INTENTS.items():
-        examples=data.get("examples",[])
+        examples = data.get("examples", [])
         for example in examples:
-            example_tokens = preprocess_text(example)
-
-            # Count matching tokens
-            match_count = len(set(user_tokens) & set(example_tokens))
-
+            example_tokens = set(preprocess_text(example))
+            match_count = len(user_tokens & example_tokens) / max(len(example_tokens), 1)
             if match_count > highest_match:
                 highest_match = match_count
                 best_intent = intent
 
-    return best_intent
+    confidence = highest_match
+    if highest_match < threshold:
+        best_intent = "fallback"
+
+    # Extract entities based on intent
+    entities = extract_entities(user_input, best_intent)
+
+    return {
+        "intent": best_intent,
+        "confidence": confidence,
+        "entities": entities
+    }
+
+# -----------------------------
+# Entity Extraction
+# -----------------------------
+def extract_entities(user_input: str, intent: str) -> dict:
+    entities = {}
+
+    if intent == "play_song":
+        match = re.search(r'play (song )?(.*)', user_input, re.IGNORECASE)
+        if match:
+            entities["song"] = match.group(2).strip()
+
+    elif intent == "open_app":
+        match = re.search(r'open (app )?(.*)', user_input, re.IGNORECASE)
+        if match:
+            entities["app"] = match.group(2).strip()
+
+    elif intent == "set_alarm":
+        match = re.search(r'at (\d{1,2}(:\d{2})?\s?(AM|PM)?)', user_input, re.IGNORECASE)
+        if match:
+            entities["time"] = match.group(1).strip()
+
+    elif intent == "get_weather":
+        match = re.search(r'in ([a-zA-Z\s]+)', user_input, re.IGNORECASE)
+        if match:
+            entities["location"] = match.group(1).strip()
+
+    return entities
