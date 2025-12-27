@@ -1,7 +1,7 @@
 # main.py
 
-from core import brain, memory
-from features import datetime_skill
+from core import brain, memory, nlp_engine
+from features import datetime_skill, weather_skill, system_commands
 from utils import logger, helper
 import sys
 

@@ -1,26 +1,28 @@
 # brain.py
 from features import datetime_skill, system_commands
 from datetime import datetime
+from core import nlp_engine
+from features import weather_skill
+
 
 def get_response(user_input):
-    user_input = user_input.lower()
-    
-    # Basic greetings
-    if "hello" in user_input or "hi" in user_input:
-        return f"{system_commands.get_greeting()}! How can I help you today?"
-    
-     # Help command
-    elif "help" in user_input:
-        return system_commands.help_message()
-    
-    # Date query
-    elif "date" in user_input:
-        return datetime_skill.get_date()
-    
-    # Time query
-    elif "time" in user_input:
-        return datetime_skill.get_time()
-    
-    # Fallback
-    else:
-        return "I am not sure how to respond to that yet."
+    intent = nlp_engine.detect_intent(user_input)
+
+    if not intent:
+        return "I'm not sure I understood that. Can you rephrase?"
+
+    intent_map = {
+        "greeting": lambda: f"{system_commands.get_greeting()}! How can I help you today?",
+        "get_time": datetime_skill.get_time,
+        "get_date": datetime_skill.get_date,
+        "help": system_commands.help_message,
+        "get_weather": weather_skill.get_weather
+    }
+
+    if intent == "exit":
+        return "exit"
+
+    if intent in intent_map:
+        return intent_map[intent]()
+
+    return "I am not sure how to respond to that yet."
