@@ -1,0 +1,22 @@
+{
+  "greeting": {
+    "examples": ["hi","hii", "hiii", "hello", "hey", "good morning", "good evening"],
+    "response": "Hello! How can I help you today?"
+  },
+  "get_time": {
+    "examples": ["time", "current time", "what time is it", "tell me the time"],
+    "response": ""
+  },
+  "get_date": {
+    "examples": ["date", "today's date", "what day is it", "current date"],
+    "response": ""
+  },
+  "get_weather": {
+      "examples": ["weather", "forecast", "is it raining", "temperature"],
+      "response": "Weather feature is under development. ☁️"
+  },
+   "exit": {
+    "examples": ["exit", "quit", "bye", "goodbye"],
+    "response": "Goodbye! Have a great day."
+   }
+}

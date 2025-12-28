@@ -1,0 +1,128 @@
+2025-12-18 20:57:04,764 - INFO - Returned user: Amresh
+2025-12-18 20:57:18,707 - INFO - User input: hello
+2025-12-18 20:57:34,543 - INFO - User input: date
+2025-12-18 20:57:38,547 - INFO - User input: time
+2025-12-18 20:57:45,754 - INFO - User input: help
+2025-12-18 20:57:54,570 - INFO - User input: xyz
+2025-12-18 21:03:25,293 - INFO - User input: exit
+2025-12-27 13:04:20,667 - INFO - Returned user: Amresh
+2025-12-27 13:04:27,007 - INFO - User input: hii
+2025-12-27 13:21:01,211 - INFO - Returned user: Amresh
+2025-12-27 13:21:11,201 - INFO - User input: hiii
+2025-12-27 13:21:35,427 - INFO - Returned user: Amresh
+2025-12-27 13:21:59,280 - INFO - User input: hello
+2025-12-27 13:32:06,881 - INFO - Returned user: Amresh
+2025-12-27 13:32:06,884 - INFO - User input: & c:/users/yamre/appdata/local/programs/python/python313/python.exe c:/users/yamre/onedrive/desktop/athena/main.py
+2025-12-27 13:40:06,629 - INFO - Returned user: Amresh
+2025-12-27 13:40:16,369 - INFO - User input: hii
+2025-12-27 14:02:17,803 - INFO - Returned user: Amresh
+2025-12-27 14:02:25,434 - INFO - User input: hii
+2025-12-27 14:04:57,247 - INFO - Returned user: Amresh
+2025-12-27 14:04:59,754 - INFO - User input: hii
+2025-12-27 14:14:01,893 - INFO - Returned user: Amresh
+2025-12-27 14:14:19,020 - INFO - User input: hello
+2025-12-27 14:20:59,167 - INFO - Returned user: Amresh
+2025-12-27 14:21:08,371 - INFO - User input: hii
+2025-12-27 14:21:19,154 - INFO - User input: helo
+2025-12-27 14:21:24,091 - INFO - User input: hello
+2025-12-27 14:22:03,554 - INFO - User input: hii
+2025-12-27 14:22:09,297 - INFO - User input: hey
+2025-12-27 14:22:19,392 - INFO - User input: time
+2025-12-27 14:22:22,882 - INFO - User input: date
+2025-12-27 14:22:26,745 - INFO - User input: day
+2025-12-27 14:22:39,060 - INFO - User input: weather
+2025-12-27 14:23:04,848 - INFO - User input: weather
+2025-12-27 14:24:09,410 - INFO - User input: & c:/users/yamre/appdata/local/programs/python/python313/python.exe c:/users/yamre/onedrive/desktop/athena/features/weather_skill.py
+2025-12-27 14:24:20,298 - INFO - User input: & c:/users/yamre/appdata/local/programs/python/python313/python.exe c:/users/yamre/onedrive/desktop/athena/features/weather_skill.py
+2025-12-27 14:24:25,382 - INFO - User input: exit
+2025-12-27 14:26:23,163 - INFO - Returned user: Amresh
+2025-12-27 14:26:29,219 - INFO - User input: hii
+2025-12-27 14:26:54,679 - INFO - User input: weather
+2025-12-27 14:31:25,752 - INFO - User input: weather
+2025-12-27 14:32:28,600 - INFO - User input: hii
+2025-12-27 14:32:36,394 - INFO - User input: weather
+2025-12-27 14:34:16,730 - INFO - User input: hii
+2025-12-27 14:34:24,455 - INFO - User input: weather
+2025-12-27 14:37:48,517 - INFO - Returned user: Amresh
+2025-12-27 14:37:52,962 - INFO - User input: hello
+2025-12-27 14:38:01,137 - INFO - User input: time
+2025-12-27 14:38:03,933 - INFO - User input: date
+2025-12-27 14:38:08,244 - INFO - User input: exit
+2025-12-27 14:38:19,140 - INFO - Returned user: Amresh
+2025-12-27 14:38:22,507 - INFO - User input: hii
+2025-12-27 14:38:34,322 - INFO - User input: weather
+2025-12-27 15:07:16,565 - INFO - Returned user: Amresh
+2025-12-27 15:07:22,401 - INFO - User input: weather
+2025-12-27 15:07:30,472 - INFO - User input: hii
+2025-12-27 15:08:13,485 - INFO - User input: hii
+2025-12-27 15:08:29,295 - INFO - Returned user: Amresh
+2025-12-27 15:08:33,929 - INFO - User input: hi
+2025-12-27 15:08:40,981 - INFO - User input: weather
+2025-12-27 15:08:50,900 - INFO - User input: exit
+2025-12-27 15:16:23,559 - INFO - Returned user: Amresh
+2025-12-27 15:16:30,830 - INFO - User input: weather
+2025-12-27 16:11:52,129 - INFO - User input: hii
+2025-12-27 16:11:56,390 - INFO - User input: hello
+2025-12-27 16:12:26,505 - INFO - Returned user: Amresh
+2025-12-27 16:12:32,605 - INFO - User input: hii
+2025-12-27 16:12:42,211 - INFO - User input: weather
+2025-12-27 16:13:01,902 - INFO - Returned user: Amresh
+2025-12-27 16:13:07,790 - INFO - User input: weather
+2025-12-27 16:13:40,735 - INFO - Returned user: Amresh
+2025-12-27 16:13:45,426 - INFO - User input: hii
+2025-12-27 16:13:54,662 - INFO - User input: date
+2025-12-27 16:13:58,265 - INFO - User input: time
+2025-12-27 16:14:05,129 - INFO - User input: exit
+2025-12-27 16:14:15,026 - INFO - Returned user: Amresh
+2025-12-27 16:14:24,162 - INFO - User input: open spotify
+2025-12-27 16:14:40,609 - INFO - User input: start spotify
+2025-12-27 16:14:52,858 - INFO - User input: start youtube
+2025-12-27 16:14:57,463 - INFO - User input: xyz
+2025-12-27 16:15:36,083 - INFO - User input: & c:/users/yamre/appdata/local/programs/python/python313/python.exe c:/users/yamre/onedrive/desktop/athena/core/brain.py
+2025-12-27 16:15:43,903 - INFO - User input: help
+2025-12-27 16:16:42,256 - INFO - Returned user: Amresh
+2025-12-27 16:16:46,491 - INFO - User input: hii
+2025-12-27 16:16:53,136 - INFO - User input: date
+2025-12-27 16:17:02,141 - INFO - User input: time
+2025-12-27 16:17:07,447 - INFO - User input: help
+2025-12-27 16:17:15,042 - INFO - User input: weather
+2025-12-27 16:37:14,878 - INFO - User input: & c:/users/yamre/appdata/local/programs/python/python313/python.exe c:/users/yamre/onedrive/desktop/athena/main.py
+2025-12-27 16:37:33,099 - INFO - Returned user: Amresh
+2025-12-27 16:37:38,515 - INFO - User input: hii
+2025-12-27 16:37:45,201 - INFO - User input: date
+2025-12-27 16:37:48,689 - INFO - User input: time
+2025-12-27 16:37:55,259 - INFO - User input: date and time
+2025-12-27 16:38:04,701 - INFO - User input: xyz
+2025-12-27 16:38:25,166 - INFO - User input: open calculator
+2025-12-27 16:41:22,568 - INFO - User input: weather
+2025-12-27 16:44:40,510 - INFO - Returned user: Amresh
+2025-12-27 16:44:57,118 - INFO - User input: hii
+2025-12-27 16:45:06,037 - INFO - User input: weather
+2025-12-27 16:45:18,261 - INFO - User input: play song
+2025-12-27 16:45:29,654 - INFO - User input: time
+2025-12-27 16:45:33,180 - INFO - User input: date
+2025-12-27 16:45:39,045 - INFO - User input: open youtube
+2025-12-27 16:47:26,181 - INFO - User input: xyz
+2025-12-27 16:51:04,229 - INFO - Returned user: Amresh
+2025-12-27 16:51:07,468 - INFO - User input: hii
+2025-12-27 16:51:14,267 - INFO - User input: date
+2025-12-27 16:51:17,079 - INFO - User input: time
+2025-12-27 16:51:20,408 - INFO - User input: weather
+2025-12-27 16:51:26,223 - INFO - User input: open youtube
+2025-12-27 16:51:31,722 - INFO - User input: time
+2025-12-27 16:51:36,680 - INFO - User input: xyz
+2025-12-27 16:51:52,080 - INFO - User input: exit
+2025-12-27 16:51:59,093 - INFO - Returned user: Amresh
+2025-12-27 16:52:10,609 - INFO - User input: open calculator
+2025-12-27 16:55:18,335 - INFO - User input: hii
+2025-12-27 16:55:23,532 - INFO - User input: weather
+2025-12-27 16:55:28,215 - INFO - User input: song
+2025-12-27 16:56:02,893 - INFO - Returned user: Amresh
+2025-12-27 16:56:12,081 - INFO - User input: help
+2025-12-27 16:56:21,059 - INFO - User input: hii
+2025-12-27 16:56:24,304 - INFO - User input: date
+2025-12-27 16:56:36,408 - INFO - User input: open calculator
+2025-12-27 16:56:44,957 - INFO - User input: time
+2025-12-27 16:57:02,177 - INFO - User input: play song
+2025-12-27 16:57:32,376 - INFO - User input: set an alarm of morning 7 am
+2025-12-27 16:57:48,333 - INFO - User input: xyz
