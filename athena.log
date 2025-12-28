@@ -126,3 +126,17 @@
 2025-12-27 16:57:02,177 - INFO - User input: play song
 2025-12-27 16:57:32,376 - INFO - User input: set an alarm of morning 7 am
 2025-12-27 16:57:48,333 - INFO - User input: xyz
+2025-12-28 12:26:51,897 - INFO - Returned user: Amresh
+2025-12-28 12:26:56,118 - INFO - User input: hii
+2025-12-28 12:27:05,524 - INFO - User input: date
+2025-12-28 12:27:09,992 - INFO - User input: time
+2025-12-28 12:27:16,196 - INFO - User input: weather
+2025-12-28 12:27:21,245 - INFO - User input: time
+2025-12-28 12:27:25,280 - INFO - User input: play song
+2025-12-28 12:27:29,198 - INFO - User input: app
+2025-12-28 12:27:34,907 - INFO - User input: help
+2025-12-28 12:28:12,760 - INFO - User input: help
+2025-12-28 12:28:20,431 - INFO - User input: exit
+2025-12-28 12:28:31,190 - INFO - Returned user: Amresh
+2025-12-28 12:28:42,565 - INFO - User input: help
+2025-12-28 12:29:09,586 - INFO - User input: exit
