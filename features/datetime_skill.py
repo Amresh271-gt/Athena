@@ -1,8 +1,15 @@
 # datetime_skill.py
+from features.skill_base import Skill
 from datetime import datetime
 
-def get_date():
-    return datetime.now().strftime("Today is %A, %d %B %Y")
+class GetTimeSkill(Skill):
+    name = "get_time"
 
-def get_time():
-    return datetime.now().strftime("Current time is %H:%M:%S")
+    def run(self, entities=None):
+        return datetime.now().strftime("%I:%M %p")
+
+class GetDateSkill(Skill):
+    name = "get_date"
+
+    def run(self, entities=None):
+        return datetime.now().strftime("%d %B %Y")

@@ -1,29 +1,32 @@
 # system_commands.py
+from features.skill_base import Skill
+from utils.logger import log_info
 from datetime import datetime
 
-def get_greeting():
-    hour = datetime.now().hour
-    
-    if 5 <= hour < 12:
-        return "Good Morning"
-    elif 12 <= hour < 17:
-        return "Good Afternoon"
-    elif 17 <= hour < 21:
-        return "Good Evening"
-    else:
-        return "Hello"
+class GreetingSkill(Skill):
+    name = "greeting"
 
-def help_message():
-    return (
-        "You can ask me things like:\n"
-        "- 'time' → to know current time\n"
-        "- 'date' → to know today's date\n"
-        "- 'hello' → greetings\n"
-        "- 'exit' → to quit Athena"
-    )
+    def run(self, entities=None):
+        return "Hello! How can I help you today?"
 
-def set_alarm(time):
-    if not time:
-        return "Please provide a time for the alarm."
-    # For now, simulate alarm
-    return f"Alarm set for {time}!"
+class HelpSkill(Skill):
+    name = "help"
+
+    def run(self, entities=None):
+        return "I can help you with music, apps, time, date, weather, and system commands."
+
+class SetAlarmSkill(Skill):
+    name = "set_alarm"
+
+    def run(self, entities=None):
+        time = entities.get("time") if entities else None
+        if not time:
+            return "Please provide a time for the alarm."
+        log_info(f"System Skill: Alarm set for {time}")
+        return f"Alarm set for {time}"
+
+class ExitSkill(Skill):
+    name = "exit"
+
+    def run(self, entities=None):
+        return "exit"

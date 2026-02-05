@@ -22,5 +22,29 @@
    "help": {
     "examples": ["help", "assist me", "i need help", "can you help me"],
     "response": "Sure! I can assist you with time, date, and weather information. How can I help you?"
-   }
+   },
+    "play_song": {
+        "examples": [
+            "play believer",
+            "play song believer",
+            "play despacito",
+            "play the song yesterday"
+        ]
+    },
+    "open_app": {
+        "examples": [
+            "open spotify",
+            "open chrome",
+            "launch notepad"
+        ]
+    },
+    "set_alarm": {
+        "examples": [
+            "set alarm at 7 AM",
+            "wake me up at 6",
+            "alarm for 8 PM"
+        ]
+    }
 }
+
+

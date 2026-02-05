@@ -140,3 +140,179 @@
 2025-12-28 12:28:31,190 - INFO - Returned user: Amresh
 2025-12-28 12:28:42,565 - INFO - User input: help
 2025-12-28 12:29:09,586 - INFO - User input: exit
+2025-12-28 13:32:18,421 - INFO - NLPEngine: Intent detected: greeting, Confidence: 1.0, Entities: {}
+2025-12-28 13:32:18,429 - INFO - Memory updated: greeting, hii
+2025-12-28 13:32:18,429 - INFO - Brain: Intent: greeting, Response: Good Afternoon! How can I help you today?
+2025-12-28 13:32:21,523 - INFO - NLPEngine: Intent detected: greeting, Confidence: 1.0, Entities: {}
+2025-12-28 13:32:21,529 - INFO - Memory updated: greeting, hello
+2025-12-28 13:32:21,530 - INFO - Brain: Intent: greeting, Response: Good Afternoon! How can I help you today?
+2025-12-28 13:32:24,186 - INFO - NLPEngine: Intent detected: get_date, Confidence: 1.0, Entities: {}
+2025-12-28 13:32:24,188 - INFO - Memory updated: get_date, date
+2025-12-28 13:32:24,188 - INFO - Brain: Intent: get_date, Response: Today is Sunday, 28 December 2025
+2025-12-28 13:32:26,731 - INFO - NLPEngine: Intent detected: get_time, Confidence: 1.0, Entities: {}
+2025-12-28 13:32:26,732 - INFO - Memory updated: get_time, time
+2025-12-28 13:32:26,732 - INFO - Brain: Intent: get_time, Response: Current time is 13:32:26
+2025-12-28 13:32:29,039 - INFO - NLPEngine: Intent detected: help, Confidence: 1.0, Entities: {}
+2025-12-28 13:32:29,041 - INFO - Memory updated: help, help
+2025-12-28 13:33:04,882 - INFO - NLPEngine: Intent detected: get_weather, Confidence: 1.0, Entities: {}
+2025-12-28 13:33:04,884 - INFO - Memory updated: get_weather, weather
+2025-12-28 13:33:04,884 - INFO - Brain: Intent: get_weather, Response: Please specify a location.
+2025-12-28 13:33:15,863 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 13:33:15,864 - INFO - Memory updated: clarify, gorakhpur
+2025-12-28 13:33:15,865 - INFO - Brain: Intent: clarify, Response: I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 13:33:25,252 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 13:33:25,254 - INFO - Memory updated: clarify, play song
+2025-12-28 13:33:25,254 - INFO - Brain: Intent: clarify, Response: I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 13:33:48,418 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 13:33:48,420 - INFO - Memory updated: clarify, set alarm
+2025-12-28 13:33:48,420 - INFO - Brain: Intent: clarify, Response: I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 13:40:53,110 - INFO - Brain initialized with skills: ['play_song']
+2025-12-28 13:41:01,820 - INFO - NLPEngine: Intent detected: greeting, Confidence: 1.0, Entities: {}
+2025-12-28 13:41:01,821 - INFO - Memory updated: greeting, hii
+2025-12-28 13:41:01,822 - INFO - Brain: Intent=greeting, Confidence=1.0, Response=I don't have a skill for 'greeting' yet.
+2025-12-28 13:41:29,480 - INFO - NLPEngine: Intent detected: get_time, Confidence: 1.0, Entities: {}
+2025-12-28 13:41:29,483 - INFO - Memory updated: get_time, time
+2025-12-28 13:41:29,483 - INFO - Brain: Intent=get_time, Confidence=1.0, Response=I don't have a skill for 'get_time' yet.
+2025-12-28 13:47:59,033 - INFO - Brain initialized with skills: ['open_app', 'get_date', 'get_time', 'play_song', 'greeting', 'help', 'set_alarm', 'get_weather']
+2025-12-28 13:48:06,623 - INFO - NLPEngine: Intent detected: greeting, Confidence: 1.0, Entities: {}
+2025-12-28 13:48:06,625 - INFO - Memory updated: greeting, hii
+2025-12-28 13:48:06,625 - INFO - Brain: Intent=greeting, Confidence=1.0, Response=Hello! How can I help you today?
+2025-12-28 13:48:13,209 - INFO - NLPEngine: Intent detected: get_time, Confidence: 1.0, Entities: {}
+2025-12-28 13:48:13,211 - INFO - Memory updated: get_time, time
+2025-12-28 13:48:13,212 - INFO - Brain: Intent=get_time, Confidence=1.0, Response=01:48 PM
+2025-12-28 13:48:16,621 - INFO - NLPEngine: Intent detected: get_date, Confidence: 1.0, Entities: {}
+2025-12-28 13:48:16,625 - INFO - Memory updated: get_date, date
+2025-12-28 13:48:16,627 - INFO - Brain: Intent=get_date, Confidence=1.0, Response=28 December 2025
+2025-12-28 13:48:25,402 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 13:48:25,407 - INFO - Memory updated: clarify, play song
+2025-12-28 13:48:25,409 - INFO - Brain: Intent=clarify, Confidence=0.0, Response=I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 13:48:36,154 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 13:48:36,157 - INFO - Memory updated: clarify, play believer
+2025-12-28 13:48:36,158 - INFO - Brain: Intent=clarify, Confidence=0.0, Response=I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 13:48:57,060 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 13:48:57,062 - INFO - Memory updated: clarify, play
+2025-12-28 13:48:57,062 - INFO - Brain: Intent=clarify, Confidence=0.0, Response=I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 13:49:18,504 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 13:49:18,506 - INFO - Memory updated: clarify, open spotify
+2025-12-28 13:49:18,507 - INFO - Brain: Intent=clarify, Confidence=0.0, Response=I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 13:49:24,739 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 13:49:24,741 - INFO - Memory updated: clarify, open
+2025-12-28 13:49:24,742 - INFO - Brain: Intent=clarify, Confidence=0.0, Response=I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 13:49:35,330 - INFO - NLPEngine: Intent detected: get_weather, Confidence: 1.0, Entities: {'location': 'gorakhpur'}
+2025-12-28 13:49:35,331 - INFO - Weather Skill: Fetching weather for gorakhpur
+2025-12-28 13:49:35,334 - INFO - Memory updated: get_weather, weather in gorakhpur
+2025-12-28 13:49:35,334 - INFO - Brain: Intent=get_weather, Confidence=1.0, Response=Fetching weather for gorakhpur...
+2025-12-28 13:49:43,312 - INFO - NLPEngine: Intent detected: get_weather, Confidence: 1.0, Entities: {}
+2025-12-28 13:49:43,314 - INFO - Memory updated: get_weather, weather
+2025-12-28 13:49:43,315 - INFO - Brain: Intent=get_weather, Confidence=1.0, Response=Please specify a location.
+2025-12-28 13:49:51,112 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 13:49:51,113 - INFO - Memory updated: clarify, gorakhpur
+2025-12-28 13:49:51,113 - INFO - Brain: Intent=clarify, Confidence=0.0, Response=I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 13:50:27,733 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 13:50:27,737 - INFO - Memory updated: clarify, set alarm at 7 AM
+2025-12-28 13:50:27,738 - INFO - Brain: Intent=clarify, Confidence=0.0, Response=I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 13:50:38,879 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 13:50:38,882 - INFO - Memory updated: clarify, set alarm
+2025-12-28 13:50:38,883 - INFO - Brain: Intent=clarify, Confidence=0.0, Response=I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 13:50:43,306 - INFO - NLPEngine: Intent detected: help, Confidence: 1.0, Entities: {}
+2025-12-28 13:50:43,308 - INFO - Memory updated: help, help
+2025-12-28 13:50:43,309 - INFO - Brain: Intent=help, Confidence=1.0, Response=I can help you with music, apps, time, date, weather, and system commands.
+2025-12-28 13:50:48,839 - INFO - NLPEngine: Intent detected: exit, Confidence: 1.0, Entities: {}
+2025-12-28 13:50:48,841 - INFO - Memory updated: exit, exit
+2025-12-28 13:50:48,842 - INFO - Brain: Intent=exit, Confidence=1.0, Response=I don't have a skill for 'exit' yet.
+2025-12-28 13:56:12,833 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 13:56:12,835 - INFO - Memory updated: clarify, & C:/Users/yamre/AppData/Local/Programs/Python/Python313/python.exe c:/Users/yamre/OneDrive/Desktop/Athena/main.py
+2025-12-28 13:56:12,838 - INFO - Brain: Intent=clarify, Confidence=0.0, Response=I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 13:56:30,484 - INFO - Brain initialized with skills: ['exit', 'get_date', 'get_time', 'get_weather', 'greeting', 'help', 'open_app', 'play_song', 'set_alarm', 'base_skill']
+2025-12-28 13:56:39,400 - INFO - NLPEngine: Intent detected: greeting, Confidence: 1.0, Entities: {}
+2025-12-28 13:56:39,402 - INFO - Memory updated: greeting, hello
+2025-12-28 13:56:39,402 - INFO - Brain: Intent=greeting, Confidence=1.0, Response=Hello! How can I help you today?
+2025-12-28 13:56:43,573 - INFO - NLPEngine: Intent detected: get_time, Confidence: 1.0, Entities: {}
+2025-12-28 13:56:43,575 - INFO - Memory updated: get_time, time
+2025-12-28 13:56:43,575 - INFO - Brain: Intent=get_time, Confidence=1.0, Response=01:56 PM
+2025-12-28 13:56:53,390 - INFO - NLPEngine: Intent detected: get_date, Confidence: 1.0, Entities: {}
+2025-12-28 13:56:53,394 - INFO - Memory updated: get_date, what is todays date
+2025-12-28 13:56:53,395 - INFO - Brain: Intent=get_date, Confidence=1.0, Response=28 December 2025
+2025-12-28 13:57:08,911 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 13:57:08,915 - INFO - Memory updated: clarify, play believer
+2025-12-28 13:57:08,917 - INFO - Brain: Intent=clarify, Confidence=0.0, Response=I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 13:57:22,775 - INFO - NLPEngine: Intent detected: exit, Confidence: 1.0, Entities: {}
+2025-12-28 13:57:22,777 - INFO - Memory updated: exit, exit
+2025-12-28 13:57:22,778 - INFO - Brain: Intent=exit, Confidence=1.0, Response=exit
+2025-12-28 14:00:01,335 - INFO - Brain initialized with skills: ['exit', 'get_date', 'get_time', 'get_weather', 'greeting', 'help', 'open_app', 'play_song', 'set_alarm', 'base_skill']
+2025-12-28 14:00:12,681 - INFO - NLPEngine: Intent detected: greeting, Confidence: 1.0, Entities: {}
+2025-12-28 14:00:12,683 - INFO - Memory updated: greeting, hii
+2025-12-28 14:00:12,683 - INFO - Brain: Intent=greeting, Confidence=1.0, Response=Hello! How can I help you today?
+2025-12-28 14:00:19,896 - INFO - NLPEngine: Intent detected: help, Confidence: 1.0, Entities: {}
+2025-12-28 14:00:19,898 - INFO - Memory updated: help, help
+2025-12-28 14:00:19,899 - INFO - Brain: Intent=help, Confidence=1.0, Response=I can help you with music, apps, time, date, weather, and system commands.
+2025-12-28 14:00:33,042 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 14:00:33,047 - INFO - Memory updated: clarify, play believer
+2025-12-28 14:00:33,048 - INFO - Brain: Intent=clarify, Confidence=0.0, Response=I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 14:00:41,269 - INFO - NLPEngine: Intent detected: exit, Confidence: 1.0, Entities: {}
+2025-12-28 14:00:41,271 - INFO - Memory updated: exit, exit
+2025-12-28 14:00:41,271 - INFO - Brain: Intent=exit, Confidence=1.0, Response=exit
+2025-12-28 14:02:51,136 - INFO - Brain initialized with skills: ['exit', 'get_date', 'get_time', 'get_weather', 'greeting', 'help', 'open_app', 'play_song', 'set_alarm', 'base_skill']
+2025-12-28 14:03:02,463 - INFO - NLPEngine: Intent detected: play_song, Confidence: 1.0, Entities: {'song': 'believer'}
+2025-12-28 14:03:02,464 - INFO - Memory updated: last_song, believer
+2025-12-28 14:03:02,465 - INFO - Playing song: believer
+2025-12-28 14:03:02,466 - INFO - Memory updated: play_song, play believer
+2025-12-28 14:03:02,467 - INFO - Brain: Intent=play_song, Confidence=1.0, Response=Playing believer...
+2025-12-28 14:03:08,544 - INFO - NLPEngine: Intent detected: set_alarm, Confidence: 0.6666666666666666, Entities: {}
+2025-12-28 14:03:08,550 - INFO - Memory updated: set_alarm, set alarm
+2025-12-28 14:03:08,553 - INFO - Brain: Intent=set_alarm, Confidence=0.6666666666666666, Response=Please provide a time for the alarm.
+2025-12-28 14:03:12,072 - INFO - NLPEngine: Intent detected: set_alarm, Confidence: 0.3333333333333333, Entities: {}
+2025-12-28 14:03:12,075 - INFO - Memory updated: set_alarm, 7
+2025-12-28 14:03:12,076 - INFO - Brain: Intent=set_alarm, Confidence=0.3333333333333333, Response=Please provide a time for the alarm.
+2025-12-28 14:03:18,412 - INFO - NLPEngine: Intent detected: set_alarm, Confidence: 0.3333333333333333, Entities: {}
+2025-12-28 14:03:18,421 - INFO - Memory updated: set_alarm, 7 AM
+2025-12-28 14:03:18,422 - INFO - Brain: Intent=set_alarm, Confidence=0.3333333333333333, Response=Please provide a time for the alarm.
+2025-12-28 14:04:18,476 - INFO - NLPEngine: Intent detected: set_alarm, Confidence: 0.3333333333333333, Entities: {}
+2025-12-28 14:04:18,478 - INFO - Memory updated: set_alarm, 7:30 PM
+2025-12-28 14:04:18,478 - INFO - Brain: Intent=set_alarm, Confidence=0.3333333333333333, Response=Please provide a time for the alarm.
+2025-12-28 14:04:39,815 - INFO - NLPEngine: Intent detected: set_alarm, Confidence: 0.3333333333333333, Entities: {'time': '7 AM'}
+2025-12-28 14:04:39,815 - INFO - System Skill: Alarm set for 7 AM
+2025-12-28 14:04:39,817 - INFO - Memory updated: set_alarm, at 7 AM
+2025-12-28 14:04:39,818 - INFO - Brain: Intent=set_alarm, Confidence=0.3333333333333333, Response=Alarm set for 7 AM
+2025-12-28 14:04:50,754 - INFO - NLPEngine: Intent detected: set_alarm, Confidence: 0.3333333333333333, Entities: {'time': '7 am'}
+2025-12-28 14:04:50,754 - INFO - System Skill: Alarm set for 7 am
+2025-12-28 14:04:50,757 - INFO - Memory updated: set_alarm, at 7 am
+2025-12-28 14:04:50,757 - INFO - Brain: Intent=set_alarm, Confidence=0.3333333333333333, Response=Alarm set for 7 am
+2025-12-28 14:04:55,035 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 14:04:55,038 - INFO - Memory updated: clarify, at 5
+2025-12-28 14:04:55,038 - INFO - Brain: Intent=clarify, Confidence=0.0, Response=I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 14:05:01,629 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 14:05:01,632 - INFO - Memory updated: clarify, at 5 AM
+2025-12-28 14:05:01,632 - INFO - Brain: Intent=clarify, Confidence=0.0, Response=I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 14:05:17,130 - INFO - NLPEngine: Intent detected: play_song, Confidence: 0.5, Entities: {}
+2025-12-28 14:05:17,132 - INFO - Memory updated: play_song, play
+2025-12-28 14:05:17,132 - INFO - Brain: Intent=play_song, Confidence=0.5, Response=Please tell me the song name.
+2025-12-28 14:05:24,579 - INFO - NLPEngine: Intent detected: fallback, Confidence: 0.0, Entities: {}
+2025-12-28 14:05:24,581 - INFO - Memory updated: clarify, axv
+2025-12-28 14:05:24,581 - INFO - Brain: Intent=clarify, Confidence=0.0, Response=I am not sure how to respond to that yet. Can you rephrase?
+2025-12-28 14:05:36,807 - INFO - NLPEngine: Intent detected: play_song, Confidence: 0.5, Entities: {'song': 'abcd'}
+2025-12-28 14:05:36,809 - INFO - Memory updated: last_song, abcd
+2025-12-28 14:05:36,810 - INFO - Playing song: abcd
+2025-12-28 14:05:36,811 - INFO - Memory updated: play_song, play abcd
+2025-12-28 14:05:36,812 - INFO - Brain: Intent=play_song, Confidence=0.5, Response=Playing abcd...
+2025-12-28 14:05:48,337 - INFO - NLPEngine: Intent detected: open_app, Confidence: 0.5, Entities: {'app': 'chat GPT'}
+2025-12-28 14:05:48,337 - INFO - App Skill: Opening chat GPT
+2025-12-28 14:05:48,344 - INFO - Memory updated: open_app, open chat GPT
+2025-12-28 14:05:48,344 - INFO - Brain: Intent=open_app, Confidence=0.5, Response=Opening chat GPT...
+2025-12-28 14:11:27,100 - INFO - NLPEngine: Intent detected: play_song, Confidence: 0.5, Entities: {}
+2025-12-28 14:11:27,101 - INFO - Memory updated: play_song, play
+2025-12-28 14:11:27,101 - INFO - Brain: Intent=play_song, Confidence=0.5, Response=Please tell me the song name.
+2025-12-28 14:11:45,920 - INFO - Brain initialized with skills: ['exit', 'get_date', 'get_time', 'get_weather', 'greeting', 'help', 'open_app', 'play_song', 'set_alarm', 'base_skill']
+2025-12-28 14:12:06,132 - INFO - Main loop error: 'Brain' object has no attribute 'process'
+2025-12-28 14:12:26,011 - INFO - Main loop error: 'Brain' object has no attribute 'process'
+2025-12-28 14:12:29,369 - INFO - Main loop error: 'Brain' object has no attribute 'process'
+2025-12-28 14:19:08,683 - INFO - Brain initialized with skills: ['exit', 'get_date', 'get_time', 'get_weather', 'greeting', 'help', 'open_app', 'play_song', 'set_alarm', 'base_skill']
+2025-12-28 14:19:12,130 - INFO - Main loop error: 'Brain' object has no attribute 'process'
+2025-12-28 14:29:59,063 - INFO - Brain initialized with skills: ['exit', 'get_date', 'get_time', 'get_weather', 'greeting', 'help', 'open_app', 'play_song', 'set_alarm', 'base_skill']
+2025-12-28 14:30:04,518 - INFO - Main loop error: 'Brain' object has no attribute 'process'
+2025-12-28 14:33:09,904 - INFO - Main loop error: 'Brain' object has no attribute 'process'
+2025-12-28 14:33:20,954 - INFO - Brain initialized with skills: ['exit', 'get_date', 'get_time', 'get_weather', 'greeting', 'help', 'open_app', 'play_song', 'set_alarm', 'base_skill']
+2025-12-28 14:33:25,231 - INFO - Main loop error: 'Brain' object has no attribute 'process'
+2025-12-28 14:34:22,322 - INFO - Brain initialized with skills: ['exit', 'get_date', 'get_time', 'get_weather', 'greeting', 'help', 'open_app', 'play_song', 'set_alarm', 'base_skill']
+2025-12-28 14:34:25,369 - INFO - Main loop error: 'Brain' object has no attribute 'process'
+2025-12-28 14:39:05,765 - INFO - Main loop error: 'Brain' object has no attribute 'process'
